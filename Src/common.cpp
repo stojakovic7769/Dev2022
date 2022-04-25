@@ -1,7 +1,7 @@
 
 #include "common.h"
 
-//GitTest-123
+//GitTest123456
 char * qstr_to_char(QString strInput)
 {
     char *chTemp = NULL;
