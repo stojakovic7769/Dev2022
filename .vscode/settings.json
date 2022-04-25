@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "sstream": "cpp",
+        "qfiledialog": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp",
+        "fstream": "cpp"
+    }
+}

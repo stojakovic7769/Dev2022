@@ -1,0 +1,142 @@
+{
+	"BUILD_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/Test_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022",
+	"HEADERS" : 
+	[
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/common.h",
+			"MU",
+			"C2K46SIDN7/moc_common.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/mainwindow.h",
+			"MU",
+			"C2K46SIDN7/moc_mainwindow.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/operatewindow.h",
+			"MU",
+			"C2K46SIDN7/moc_operatewindow.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/sqlite3.h",
+			"MU",
+			"C2K46SIDN7/moc_sqlite3.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/sqlite3ext.h",
+			"MU",
+			"C2K46SIDN7/moc_sqlite3ext.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/ui_mainwindow.h",
+			"MU",
+			"C2K46SIDN7/moc_ui_mainwindow.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc/ui_operatewindow.h",
+			"MU",
+			"C2K46SIDN7/moc_ui_operatewindow.cpp"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/ThirdParty/xlsx/xlsxdocument.h",
+			"MU",
+			"XECY6LLWZE/moc_xlsxdocument.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/Test_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/Test_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_SQL_LIB",
+		"QT_WIDGETS_LIB",
+		"QT_XLSX_LIB"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build",
+		"/home/cc/CProject/QT_Project/TacticControl/Test2022",
+		"/home/cc/CProject/QT_Project/TacticControl/Test2022/Inc",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/mkspecs/linux-g++",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql",
+		"/home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/Test_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/Test_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/cc/Qt5.12.11/5.12.11/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/cc/Qt5.12.11/5.12.11/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/Test_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/common.cpp",
+			"MU"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/main.cpp",
+			"MU"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/mainwindow.cpp",
+			"MU"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/operatewindow.cpp",
+			"MU"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/shell.c",
+			"MU"
+		],
+		[
+			"/home/cc/CProject/QT_Project/TacticControl/Test2022/Src/sqlite3.c",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

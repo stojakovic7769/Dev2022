@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OperateWindow</class>
+ <widget class="QMainWindow" name="OperateWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1538</width>
+    <height>904</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string> TacticalControl</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="twOperate">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1241</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar::tab{width:252;height:40; font:bold 20px 微软雅黑;background-color:rgb(132, 171, 208); color:white;}
+QTabBar::tab:selected{color:#000000;border-bottom:6px solid rgb(0,0,0);background-color:#FFFFFF;}</string>
+    </property>
+    <property name="locale">
+     <locale language="English" country="UnitedStates"/>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="tabTacticalManage">
+     <attribute name="title">
+      <string>战术情况管理</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabSchemePreparation">
+     <attribute name="title">
+      <string>通话方案拟制</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabSubjectManager">
+     <attribute name="title">
+      <string>考核科目管理</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabMarkManage">
+     <attribute name="title">
+      <string>考核成绩管理</string>
+     </attribute>
+     <widget class="QTableView" name="tvMarkManage">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>910</width>
+        <height>721</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widgetMarkManage" native="true">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>10</y>
+        <width>311</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>3</x>
+         <y>12</y>
+         <width>311</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayoutMarkManager_1">
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelexercise">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>考核科目</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QComboBox" name="cbxExerciseOption">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labelGrade">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>年         级</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QComboBox" name="cbxGradeOption">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labeleTime">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>考核学年</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="cbxDate">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="labelCompany">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>队         别</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="cbxCompany">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="labelMMID">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>学         号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QTextEdit" name="textEditMMID">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="labelMMName">
+          <property name="maximumSize">
+           <size>
+            <width>85</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>姓         名</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QTextEdit" name="textEditMMName">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>160</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>18</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="btnFilterQueryMarkManage">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>440</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string> 筛 选 查 询</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>630</y>
+        <width>312</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayoutMarkManage_2">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnMarkManageImport">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>152</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>152</width>
+           <height>31</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Excel导入学员成绩</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnMarkManageImportDB">
+         <property name="maximumSize">
+          <size>
+           <width>152</width>
+           <height>31</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>列表导入数据库</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QPushButton" name="btnClearListMarkManage">
+         <property name="maximumSize">
+          <size>
+           <width>152</width>
+           <height>31</height>
+          </size>
+         </property>
+         <property name="text">
+          <string> 清空列表</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="btnNameIDQueryMarkManage">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>390</y>
+        <width>281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>15</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>按姓名学号查询</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabStuInfo">
+     <attribute name="title">
+      <string>学员信息管理</string>
+     </attribute>
+     <widget class="QTableView" name="tvStuInfo">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>910</width>
+        <height>721</height>
+       </rect>
+      </property>
+      <attribute name="horizontalHeaderMinimumSectionSize">
+       <number>20</number>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>920</x>
+        <y>30</y>
+        <width>311</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <widget class="QPushButton" name="btnQuery">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>270</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>按姓名学号查询</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>301</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <layout class="QGridLayout" name="gridLayoutStuInfo_1">
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelName">
+          <property name="maximumSize">
+           <size>
+            <width>70</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>姓         名</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QTextEdit" name="textEditName">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>227</horstretch>
+            <verstretch>60</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>19</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labelID">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>学         号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QTextEdit" name="textEditID">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>227</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>19</pointsize>
+           </font>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labelIGrade">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>年         级</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="comboBoxGrade">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="labelIPro">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>专         业</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QComboBox" name="comboBoxPro">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>50</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="btnQueryByGS">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>270</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>按专业年级查询</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>630</y>
+        <width>311</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayoutStuInfo_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnImport">
+         <property name="text">
+          <string>Excel导入学员信息</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnInputDB">
+         <property name="text">
+          <string>列表导入数据库</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="btnClearList">
+         <property name="text">
+          <string> 清空列表</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1538</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
