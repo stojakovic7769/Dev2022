@@ -1,4 +1,4 @@
-# Install script for directory: /home/cc/Desktop/TacticControl/GIt_Test
+# Install script for directory: /home/cc/Desktop/GitProjectr/Dev2022
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cc/Desktop/TacticControl/GIt_Test/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cc/Desktop/GitProjectr/Dev2022/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

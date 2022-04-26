@@ -1,4 +1,4 @@
-/home/cc/Desktop/TacticControl/GIt_Test/build/CMakeFiles/rebuild_cache.dir
-/home/cc/Desktop/TacticControl/GIt_Test/build/CMakeFiles/edit_cache.dir
-/home/cc/Desktop/TacticControl/GIt_Test/build/CMakeFiles/Test.dir
-/home/cc/Desktop/TacticControl/GIt_Test/build/CMakeFiles/Test_autogen.dir
+/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/rebuild_cache.dir
+/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/edit_cache.dir
+/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir
+/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test_autogen.dir
