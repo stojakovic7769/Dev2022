@@ -14,3 +14,5 @@ Note:
 推送到分支 git push origin BRANCHNAME
 查看远程分支 git branch -r
 查看所有分支 git branch -a
+
+将远程指定分支 拉取到 本地指定分支上  git pull origin <远程分支名>:<本地分支名>或者 git pull origin <远程分支名>
