@@ -16,3 +16,9 @@ Note:
 查看所有分支 git branch -a
 
 将远程指定分支 拉取到 本地指定分支上  git pull origin <远程分支名>:<本地分支名>或者 git pull origin <远程分支名>
+
+将本地当前分支 推送到 远程指定分支上  git push origin <本地分支名>:<远程分支名>
+
+将本地当前分支 推送到 与本地当前分支同名的远程分支上 git push origin <本地分支名>
+
+将本地分支与远程同名分支相关联 git push --set-upstream origin <本地分支名>
