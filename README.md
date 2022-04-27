@@ -23,8 +23,4 @@ Note:
 
 将本地分支与远程同名分支相关联 git push --set-upstream origin <本地分支名>
 
-<<<<<<< HEAD
 本地合并操作.
-=======
-恢复到某一版本操作:   git checkout <commit后面的散列值的前6位>
->>>>>>> 8a3814ecf59c0a45c65d1016bc71cf54c90c236b
