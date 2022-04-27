@@ -24,6 +24,12 @@ Note:
 将本地当前分支 推送到 与本地当前分支同名的远程分支上 git push origin <本地分支名>
 
 将本地分支与远程同名分支相关联 git push --set-upstream origin <本地分支名>
+
 删除本地分支  git branch -D <本地分支名>
+
+git branch -d 会在删除前检查merge状态（其与上游分支或者与head）。
+git branch -D 是git branch --delete --force的简写，它会直接删除。
+
+git删除远程分支:git push origin --delete [branch_name]
 
 
