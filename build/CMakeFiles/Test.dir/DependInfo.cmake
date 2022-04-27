@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cc/Desktop/GitProjectr/Dev2022/Src/common.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Src/common.cpp.o"
-  "/home/cc/Desktop/GitProjectr/Dev2022/Src/main.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Src/main.cpp.o"
-  "/home/cc/Desktop/GitProjectr/Dev2022/Src/mainwindow.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Src/mainwindow.cpp.o"
-  "/home/cc/Desktop/GitProjectr/Dev2022/Src/operatewindow.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Src/operatewindow.cpp.o"
-  "/home/cc/Desktop/GitProjectr/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o"
-  "/home/cc/Desktop/GitProjectr/Dev2022/build/Test_autogen/mocs_compilation.cpp" "/home/cc/Desktop/GitProjectr/Dev2022/build/CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/Src/common.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Src/common.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/Src/main.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Src/main.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/Src/mainwindow.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Src/mainwindow.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/Src/operatewindow.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Src/operatewindow.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o"
+  "/home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/mocs_compilation.cpp" "/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
