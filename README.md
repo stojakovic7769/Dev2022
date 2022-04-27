@@ -1,7 +1,10 @@
-20220425
+Git常用操作汇总:
 
-git add -all
-git push https://github.com/stojakovic7769/Dev2022/
+20220425
+1 暂存更改 2 提交本地 3 推送到远程库
+git add --all
+git commit -m "修改摘要信息"
+git push 
 
 Note:在其他电脑上进行clone操作时,也需要先配置密钥.
 1  ssh-keygen -t rsa -C "stojakovic7769@126.com"
@@ -17,15 +20,20 @@ Note:
 查看所有分支 git branch -a
 
 20220427
-将远程指定分支 拉取到 本地指定分支上  git pull origin <远程分支名>:<本地分支名>或者 git pull origin <远程分支名>
+将远程指定分支拉取到本地指定分支上  
+git pull origin <远程分支名>:<本地分支名>或者 git pull origin <远程分支名>
 
-将本地当前分支 推送到 远程指定分支上  git push origin <本地分支名>:<远程分支名>
+将本地当前分支 推送到 远程指定分支上  
+git push origin <本地分支名>:<远程分支名>
 
-将本地当前分支 推送到 与本地当前分支同名的远程分支上 git push origin <本地分支名>
+将本地当前分支 推送到 与本地当前分支同名的远程分支上 
+git push origin <本地分支名>
 
-将本地分支与远程同名分支相关联 git push --set-upstream origin <本地分支名>
+将本地分支与远程同名分支相关联: 
+git push --set-upstream origin <本地分支名>
 
-删除本地分支  git branch -D <本地分支名>
+删除本地分支:  
+git branch -D <本地分支名>
 
 git branch -d 会在删除前检查merge状态（其与上游分支或者与head）。
 git branch -D 是git branch --delete --force的简写，它会直接删除。
