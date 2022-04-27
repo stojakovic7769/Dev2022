@@ -40,4 +40,6 @@ git branch -D 是git branch --delete --force的简写，它会直接删除。
 
 git删除远程分支:git push origin --delete [branch_name]
 
+20220428
+
 
