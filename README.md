@@ -17,4 +17,4 @@ Note:
 
 将远程指定分支 拉取到 本地指定分支上  git pull origin <远程分支名>:<本地分支名>或者 git pull origin <远程分支名>
 
-恢复到某一版本操作:
+恢复到某一版本操作:   git checkout <commit后面的散列值的前6位>
