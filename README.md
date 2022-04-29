@@ -3,15 +3,15 @@
 ## *20220425*
 **1 暂存更改**
 
-"git add --all"
+```git add --all"```
 
 **2 提交本地**
 
-git commit -m "修改摘要信息"
+```git commit -m "修改摘要信息"```
 
 **3 推送到远程库**
 
-git push
+```git push```
 
 
 Note:在其他电脑上进行clone操作时,也需要先配置密钥.
