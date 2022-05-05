@@ -218,18 +218,7 @@ ___
 ![效果图](https://img-blog.csdn.net/20180409221335012?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
 
 #### （2)渲染流程图：
-    ``` flow
-    st=>start: 开始
-    e=>end: 结束
-    com=>operation: 开始评论
-    cond=>condition: 确认评论？
-
-    st->com->cond
-    cond(yes)->e
-    cond(no)->com
-    ```
-
-    ``` flow
+    ```flow
     st=>start: 开始
     e=>end: 结束
     com=>operation: 开始评论
@@ -241,3 +230,4 @@ ___
     ```
 会显示以下效果：  
 ![效果图](https://img-blog.csdn.net/20180409221935594?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
+
