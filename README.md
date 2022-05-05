@@ -1,6 +1,6 @@
 # Git常用操作汇总:
 - - -
-## *基本的操作,能保证数据的推送*
+## *基本的操作*
 **1 暂存更改:**
 ```
     git add --all"
@@ -12,7 +12,13 @@
 **3 推送到远程库:**
 ```
     git push
+```  
+或者 
+``` 
+  git push  +  [仓库地址]  
+  例如:git push https://gitee.com/stojakovic7769/Develop
 ```
+
 **4 将远程资源库Repository的内容拉取到本地资源库:**
 ```
     git pull
