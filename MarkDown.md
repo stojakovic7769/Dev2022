@@ -126,4 +126,85 @@ ___ 粗斜体 ___
 　　2）引用内包含其他语法：
 　　如：标题、列表、代码块
 　　注：一定要写在引开头处
+### 7 水平分割线
+```
+---
+___
+***
+```
+### 8 代码块
+#### (1)代码
+用反引号（`），左上角ESC按键下面。
+```
+`我是代码句`
+```
+#### (2)代码段
+4个空格（或Tab缩进）定义代码块。
+    
+    我是代码段1
+    我是代码段2
+    我是代码段3
+    
+#### (3)用三个以上的反引号定义段开始和结束
 
+
+
+    ``` java
+    public class Test {
+        public static void main(String[] args) {
+            System.out.println("Hello World");
+        }
+    }
+    ```
+
+会显示以下效果：  
+![效果图](https://img-blog.csdn.net/20180409220239031?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
+
+### 9 表格
+  **关于冒号**（:）  
+左边：以下内容左对齐  
+右边：以下内容右对齐  
+两边：以下内容居中对齐
+
+```
+| 项目      |    价格 | 数量  |
+| :-------- | --------:| :--: |
+| Computer  | 1600 元 |  5   |
+| Phone     |   12 元 |  12  |
+| Pipe      |    1 元 | 234  |
+```
+会显示以下效果：  
+![效果图](https://img-blog.csdn.net/20180409211150024?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
+
+### 10 文档目录
+只需在你想要放入目录结构的位置写入 [TOC] 即可。
+会显示以下效果：  
+![效果图](https://img-blog.csdn.net/20180409220313275?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
+
+### 11 转义字符
+有的时间在使用 MarkDown 进行排版时，可以很方便的快速进行排版，但是有时还需要使用一些 MarkDown 语法中特殊的符号（比如：*，-，+这些），该怎么办呢？我们可以借助转义字符达到我们想要的效果。
+
+```
+\\　反斜杠
+\`　反引号
+\*　星号
+\_　下划线
+\+　加号
+\-　减号
+\#　井号
+\.　句号
+\~　感叹号
+
+```
+### 12 UML图
+####（1)渲染序列图：
+
+    ```sequence
+    小异常->大异常: 嘿，老大, 看完博客评论了没?
+    Note right of 大异常: 大异常愣了一下，说：
+    大异常-->小异常: 呀，差点忘了，马上评论
+    ```
+ 
+
+会显示以下效果：  
+![效果图](https://img-blog.csdn.net/20180409221335012?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3VuODExMjEzMw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
