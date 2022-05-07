@@ -11,5 +11,6 @@
         "vector": "cpp",
         "system_error": "cpp",
         "fstream": "cpp"
-    }
+    },
+    "commentTranslate.source": "Baidu"
 }
