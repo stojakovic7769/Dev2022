@@ -90,6 +90,7 @@ endif()
 #3、源文件和头文件都包含了库文件     PUBLIC
 #4 target_link_libraries 直接添加需要的共享库,不用指定完整路径,在此使用绝对路径,系统默认.
 #5 link_directory 添加非标准的共享库搜索路径.
+#6
 target_link_libraries(Test PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Sql -lsqlite3 Qt${QT_VERSION_MAJOR}::Xlsx)
 
 set_target_properties(Test PROPERTIES
