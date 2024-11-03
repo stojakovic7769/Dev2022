@@ -12,5 +12,6 @@
         "system_error": "cpp",
         "fstream": "cpp"
     },
-    "commentTranslate.source": "Baidu"
+    "commentTranslate.source": "Baidu",
+    "DockerRun.DisableDockerrc": true
 }

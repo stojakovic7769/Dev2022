@@ -1,0 +1,4 @@
+/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/rebuild_cache.dir
+/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/edit_cache.dir
+/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/Test.dir
+/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/Test_autogen.dir

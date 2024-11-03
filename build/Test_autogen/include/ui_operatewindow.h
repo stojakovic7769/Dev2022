@@ -33,6 +33,8 @@ public:
     QWidget *centralwidget;
     QTabWidget *twOperate;
     QWidget *tabTacticalManage;
+    QPushButton *btn_PicWrite;
+    QPushButton *btn_PicRead;
     QWidget *tabSchemePreparation;
     QWidget *tabSubjectManager;
     QWidget *tabMarkManage;
@@ -97,6 +99,12 @@ public:
         twOperate->setLocale(QLocale(QLocale::English, QLocale::UnitedStates));
         tabTacticalManage = new QWidget();
         tabTacticalManage->setObjectName(QString::fromUtf8("tabTacticalManage"));
+        btn_PicWrite = new QPushButton(tabTacticalManage);
+        btn_PicWrite->setObjectName(QString::fromUtf8("btn_PicWrite"));
+        btn_PicWrite->setGeometry(QRect(760, 580, 111, 25));
+        btn_PicRead = new QPushButton(tabTacticalManage);
+        btn_PicRead->setObjectName(QString::fromUtf8("btn_PicRead"));
+        btn_PicRead->setGeometry(QRect(890, 580, 111, 25));
         twOperate->addTab(tabTacticalManage, QString());
         tabSchemePreparation = new QWidget();
         tabSchemePreparation->setObjectName(QString::fromUtf8("tabSchemePreparation"));
@@ -378,7 +386,7 @@ public:
 
         retranslateUi(OperateWindow);
 
-        twOperate->setCurrentIndex(3);
+        twOperate->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(OperateWindow);
@@ -387,6 +395,8 @@ public:
     void retranslateUi(QMainWindow *OperateWindow)
     {
         OperateWindow->setWindowTitle(QApplication::translate("OperateWindow", " TacticalControl", nullptr));
+        btn_PicWrite->setText(QApplication::translate("OperateWindow", "\345\206\231\345\205\245", nullptr));
+        btn_PicRead->setText(QApplication::translate("OperateWindow", "\350\257\273\345\207\272", nullptr));
         twOperate->setTabText(twOperate->indexOf(tabTacticalManage), QApplication::translate("OperateWindow", "\346\210\230\346\234\257\346\203\205\345\206\265\347\256\241\347\220\206", nullptr));
         twOperate->setTabText(twOperate->indexOf(tabSchemePreparation), QApplication::translate("OperateWindow", "\351\200\232\350\257\235\346\226\271\346\241\210\346\213\237\345\210\266", nullptr));
         twOperate->setTabText(twOperate->indexOf(tabSubjectManager), QApplication::translate("OperateWindow", "\350\200\203\346\240\270\347\247\221\347\233\256\347\256\241\347\220\206", nullptr));

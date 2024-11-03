@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Src/common.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp"
+},
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Src/main.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp"
+},
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Src/mainwindow.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp"
+},
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Src/operatewindow.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp"
+},
+{
+  "directory": "/home/cc/Desktop/Project/Dev2024 _V1/build",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SQL_LIB -DQT_WIDGETS_LIB -DQT_XLSX_LIB -I\"/home/cc/Desktop/Project/Dev2024 _V1/build\" -I\"/home/cc/Desktop/Project/Dev2024 _V1\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/include\" -I\"/home/cc/Desktop/Project/Dev2024 _V1/./Inc\" -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtGui -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtSql -isystem /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtXlsx  -g   -Wall -g -fPIC -std=gnu++11 -o CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o -c \"/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp\"",
+  "file": "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp"
+}
+]

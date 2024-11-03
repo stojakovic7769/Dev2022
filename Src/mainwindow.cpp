@@ -222,6 +222,8 @@ void MainWindow::on_btnLogin_clicked()
     }*/
     /**************************************************************************/
 
+
+
     sqlite3_free_table(ResultSQL);
 
     sqlite3_close(db);

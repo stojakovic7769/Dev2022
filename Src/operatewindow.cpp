@@ -683,7 +683,6 @@ void OperateWindow::on_btnMarkManageImport_clicked()
 
     strTabStuInfoFileName = GetXlsxName(strfilePath);
 
-
     int nColumn = 0;
     int nRow = 0;
 

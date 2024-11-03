@@ -3,7 +3,7 @@
 
 CMakeFiles/Test.dir/Src/common.cpp.o
  ../Inc/common.h
- /home/cc/Desktop/Git_Project/Dev2022/Src/common.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/qarraydata.h
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/qatomic.h
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/qatomic_bootstrap.h
@@ -37,7 +37,7 @@ CMakeFiles/Test.dir/Src/common.cpp.o
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/qversiontagging.h
 CMakeFiles/Test.dir/Src/main.cpp.o
  ../Inc/mainwindow.h
- /home/cc/Desktop/Git_Project/Dev2022/Src/main.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QLocale
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QTranslator
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/qalgorithms.h
@@ -167,7 +167,7 @@ CMakeFiles/Test.dir/Src/mainwindow.cpp.o
  ../ThirdParty/xlsx/xlsxformat.h
  ../ThirdParty/xlsx/xlsxglobal.h
  ../ThirdParty/xlsx/xlsxworksheet.h
- /home/cc/Desktop/Git_Project/Dev2022/Src/mainwindow.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QByteArray
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QExplicitlySharedDataPointer
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QList
@@ -328,7 +328,7 @@ CMakeFiles/Test.dir/Src/operatewindow.cpp.o
  ../ThirdParty/xlsx/xlsxformat.h
  ../ThirdParty/xlsx/xlsxglobal.h
  ../ThirdParty/xlsx/xlsxworksheet.h
- /home/cc/Desktop/Git_Project/Dev2022/Src/operatewindow.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QByteArray
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QExplicitlySharedDataPointer
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QList
@@ -527,7 +527,7 @@ CMakeFiles/Test.dir/Src/operatewindow.cpp.o
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtWidgets/qwidget.h
  Test_autogen/include/ui_operatewindow.h
 CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o
- /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o
  ../Inc/mainwindow.h
  ../Inc/operatewindow.h
@@ -541,10 +541,10 @@ CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o
  ../ThirdParty/xlsx/xlsxformat.h
  ../ThirdParty/xlsx/xlsxglobal.h
  ../ThirdParty/xlsx/xlsxworksheet.h
- /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/C2K46SIDN7/moc_mainwindow.cpp
- /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/C2K46SIDN7/moc_operatewindow.cpp
- /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/XECY6LLWZE/moc_xlsxdocument.cpp
- /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/mocs_compilation.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/C2K46SIDN7/moc_mainwindow.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/C2K46SIDN7/moc_operatewindow.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/XECY6LLWZE/moc_xlsxdocument.cpp
+ /home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QByteArray
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QExplicitlySharedDataPointer
  /home/cc/Qt5.12.11/5.12.11/gcc_64/include/QtCore/QMap

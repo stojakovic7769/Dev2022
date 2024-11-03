@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 BuildTime="$(date +%Y-%m-%d\ %H:%M:%S)"
 echo "Start Build at $BuildTime"
@@ -17,8 +17,8 @@ else
     mkdir bin
 fi
 
-uic -o ./Inc/ui_operatewindow.h ./Src/operatewindow.ui
-uic -o ./Inc/ui_mainwindow.h ./Src/mainwindow.ui
+#uic -o ./Inc/ui_operatewindow.h ./Src/operatewindow.ui
+#uic -o ./Inc/ui_mainwindow.h ./Src/mainwindow.ui
 
 
 cd build

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/Desktop/Git_Project/Dev2022
+CMAKE_SOURCE_DIR = "/home/cc/Desktop/Project/Dev2024 _V1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/Desktop/Git_Project/Dev2022/build
+CMAKE_BINARY_DIR = "/home/cc/Desktop/Project/Dev2024 _V1/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Test.dir/depend.make
@@ -58,8 +58,8 @@ include CMakeFiles/Test.dir/progress.make
 include CMakeFiles/Test.dir/flags.make
 
 ../Test_en_US.ts: ../
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../Test_en_US.ts"
-	/home/cc/Qt5.12.11/5.12.11/gcc_64/bin/lupdate @/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test_en_US.ts_lst_file -ts /home/cc/Desktop/Git_Project/Dev2022/Test_en_US.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating ../Test_en_US.ts"
+	/home/cc/Qt5.12.11/5.12.11/gcc_64/bin/lupdate "@/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles/Test_en_US.ts_lst_file" -ts "/home/cc/Desktop/Project/Dev2024 _V1/Test_en_US.ts"
 
 Test_autogen/EWIEGA46WW/qrc_Pic.cpp: ../Pic.qrc
 Test_autogen/EWIEGA46WW/qrc_Pic.cpp: CMakeFiles/Test_autogen.dir/AutoRcc_Pic_EWIEGA46WW_Info.json
@@ -71,86 +71,86 @@ Test_autogen/EWIEGA46WW/qrc_Pic.cpp: ../Resource/n7.png
 Test_autogen/EWIEGA46WW/qrc_Pic.cpp: ../Resource/n2.png
 Test_autogen/EWIEGA46WW/qrc_Pic.cpp: ../Resource/quit.png
 Test_autogen/EWIEGA46WW/qrc_Pic.cpp: /home/cc/Qt5.12.11/5.12.11/gcc_64/bin/rcc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for Pic.qrc"
-	/usr/bin/cmake -E cmake_autorcc /home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test_autogen.dir/AutoRcc_Pic_EWIEGA46WW_Info.json 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for Pic.qrc"
+	/usr/bin/cmake -E cmake_autorcc /home/cc/Desktop/Project/Dev2024\ _V1/build/CMakeFiles/Test_autogen.dir/AutoRcc_Pic_EWIEGA46WW_Info.json Debug
 
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o: Test_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp"
 
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/mocs_compilation.cpp > CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp" > CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/mocs_compilation.cpp -o CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/mocs_compilation.cpp" -o CMakeFiles/Test.dir/Test_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Test.dir/Src/common.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Src/common.cpp.o: ../Src/common.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Src/common.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/common.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/Src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Test.dir/Src/common.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/common.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp"
 
 CMakeFiles/Test.dir/Src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Src/common.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/Src/common.cpp > CMakeFiles/Test.dir/Src/common.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp" > CMakeFiles/Test.dir/Src/common.cpp.i
 
 CMakeFiles/Test.dir/Src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Src/common.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/Src/common.cpp -o CMakeFiles/Test.dir/Src/common.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/Src/common.cpp" -o CMakeFiles/Test.dir/Src/common.cpp.s
 
 CMakeFiles/Test.dir/Src/main.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Src/main.cpp.o: ../Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/main.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/Src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Test.dir/Src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/main.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp"
 
 CMakeFiles/Test.dir/Src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/Src/main.cpp > CMakeFiles/Test.dir/Src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp" > CMakeFiles/Test.dir/Src/main.cpp.i
 
 CMakeFiles/Test.dir/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/Src/main.cpp -o CMakeFiles/Test.dir/Src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/Src/main.cpp" -o CMakeFiles/Test.dir/Src/main.cpp.s
 
 CMakeFiles/Test.dir/Src/mainwindow.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Src/mainwindow.cpp.o: ../Src/mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Src/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/mainwindow.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/Src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Test.dir/Src/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/mainwindow.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp"
 
 CMakeFiles/Test.dir/Src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/Src/mainwindow.cpp > CMakeFiles/Test.dir/Src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp" > CMakeFiles/Test.dir/Src/mainwindow.cpp.i
 
 CMakeFiles/Test.dir/Src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/Src/mainwindow.cpp -o CMakeFiles/Test.dir/Src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/Src/mainwindow.cpp" -o CMakeFiles/Test.dir/Src/mainwindow.cpp.s
 
 CMakeFiles/Test.dir/Src/operatewindow.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Src/operatewindow.cpp.o: ../Src/operatewindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Src/operatewindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/operatewindow.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/Src/operatewindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Test.dir/Src/operatewindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Src/operatewindow.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp"
 
 CMakeFiles/Test.dir/Src/operatewindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Src/operatewindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/Src/operatewindow.cpp > CMakeFiles/Test.dir/Src/operatewindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp" > CMakeFiles/Test.dir/Src/operatewindow.cpp.i
 
 CMakeFiles/Test.dir/Src/operatewindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Src/operatewindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/Src/operatewindow.cpp -o CMakeFiles/Test.dir/Src/operatewindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/Src/operatewindow.cpp" -o CMakeFiles/Test.dir/Src/operatewindow.cpp.s
 
 CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o: CMakeFiles/Test.dir/flags.make
 CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o: Test_autogen/EWIEGA46WW/qrc_Pic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o -c /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.o -c "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp"
 
 CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp > CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp" > CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.i
 
 CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/Desktop/Git_Project/Dev2022/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp -o CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/cc/Desktop/Project/Dev2024 _V1/build/Test_autogen/EWIEGA46WW/qrc_Pic.cpp" -o CMakeFiles/Test.dir/Test_autogen/EWIEGA46WW/qrc_Pic.cpp.s
 
 # Object files for target Test
 Test_OBJECTS = \
@@ -177,7 +177,7 @@ Test_EXTERNAL_OBJECTS =
 ../bin/Test: /home/cc/Qt5.12.11/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11
 ../bin/Test: /home/cc/Qt5.12.11/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
 ../bin/Test: CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../bin/Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +191,6 @@ CMakeFiles/Test.dir/clean:
 
 CMakeFiles/Test.dir/depend: ../Test_en_US.ts
 CMakeFiles/Test.dir/depend: Test_autogen/EWIEGA46WW/qrc_Pic.cpp
-	cd /home/cc/Desktop/Git_Project/Dev2022/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/Desktop/Git_Project/Dev2022 /home/cc/Desktop/Git_Project/Dev2022 /home/cc/Desktop/Git_Project/Dev2022/build /home/cc/Desktop/Git_Project/Dev2022/build /home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/cc/Desktop/Project/Dev2024 _V1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/cc/Desktop/Project/Dev2024 _V1" "/home/cc/Desktop/Project/Dev2024 _V1" "/home/cc/Desktop/Project/Dev2024 _V1/build" "/home/cc/Desktop/Project/Dev2024 _V1/build" "/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles/Test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Test.dir/depend
 

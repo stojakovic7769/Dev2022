@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/Desktop/Git_Project/Dev2022
+CMAKE_SOURCE_DIR = "/home/cc/Desktop/Project/Dev2024 _V1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/Desktop/Git_Project/Dev2022/build
+CMAKE_BINARY_DIR = "/home/cc/Desktop/Project/Dev2024 _V1/build"
 
 # Utility rule file for Test_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/cc/Desktop/Git_Project/Dev2022/build
 include CMakeFiles/Test_autogen.dir/progress.make
 
 CMakeFiles/Test_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Test"
-	/usr/bin/cmake -E cmake_autogen /home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Test"
+	/usr/bin/cmake -E cmake_autogen "/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles/Test_autogen.dir/AutogenInfo.json" Debug
 
 Test_autogen: CMakeFiles/Test_autogen
 Test_autogen: CMakeFiles/Test_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Test_autogen.dir/clean:
 .PHONY : CMakeFiles/Test_autogen.dir/clean
 
 CMakeFiles/Test_autogen.dir/depend:
-	cd /home/cc/Desktop/Git_Project/Dev2022/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/Desktop/Git_Project/Dev2022 /home/cc/Desktop/Git_Project/Dev2022 /home/cc/Desktop/Git_Project/Dev2022/build /home/cc/Desktop/Git_Project/Dev2022/build /home/cc/Desktop/Git_Project/Dev2022/build/CMakeFiles/Test_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/cc/Desktop/Project/Dev2024 _V1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/cc/Desktop/Project/Dev2024 _V1" "/home/cc/Desktop/Project/Dev2024 _V1" "/home/cc/Desktop/Project/Dev2024 _V1/build" "/home/cc/Desktop/Project/Dev2024 _V1/build" "/home/cc/Desktop/Project/Dev2024 _V1/build/CMakeFiles/Test_autogen.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Test_autogen.dir/depend
 

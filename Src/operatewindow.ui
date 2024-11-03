@@ -31,12 +31,38 @@ QTabBar::tab:selected{color:#000000;border-bottom:6px solid rgb(0,0,0);backgroun
      <locale language="English" country="UnitedStates"/>
     </property>
     <property name="currentIndex">
-     <number>3</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tabTacticalManage">
      <attribute name="title">
       <string>战术情况管理</string>
      </attribute>
+     <widget class="QPushButton" name="btn_PicWrite">
+      <property name="geometry">
+       <rect>
+        <x>760</x>
+        <y>580</y>
+        <width>111</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>写入</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_PicRead">
+      <property name="geometry">
+       <rect>
+        <x>890</x>
+        <y>580</y>
+        <width>111</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>读出</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="tabSchemePreparation">
      <attribute name="title">

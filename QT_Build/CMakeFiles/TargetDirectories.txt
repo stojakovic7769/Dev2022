@@ -1,4 +1,0 @@
-/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/rebuild_cache.dir
-/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/edit_cache.dir
-/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/Test.dir
-/home/cc/CProject/QT_Project/TacticControl/Test2022/QT_Build/CMakeFiles/Test_autogen.dir

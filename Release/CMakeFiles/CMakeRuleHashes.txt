@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+65c0d3efd5a3d2535ea3521da766ddd7 ../Test_en_US.ts
+fa6f9152a777e0bdc5a1042c1cc12dbc CMakeFiles/Test_autogen
+5f989496291a48d317066e173b4671ba Test_autogen/EWIEGA46WW/qrc_Pic.cpp

@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/Test_autogen",
+	"CMAKE_BINARY_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1",
+	"CMAKE_SOURCE_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1",
+	"INCLUDE_DIR" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/Test_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/n1.png",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/n5.png",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/Icon.jpg",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/n8.png",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/n7.png",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/n2.png",
+		"/home/cc/Desktop/Git_Project/Dev2022 _V1/Resource/quit.png"
+	],
+	"LOCK_FILE" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/Test_autogen.dir/AutoRcc_Pic_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "Pic" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_Pic.cpp",
+	"RCC_EXECUTABLE" : "/home/cc/Qt5.12.11/5.12.11/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Release/CMakeFiles/Test_autogen.dir/AutoRcc_Pic_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/cc/Desktop/Git_Project/Dev2022 _V1/Pic.qrc",
+	"VERBOSITY" : 0
+}
